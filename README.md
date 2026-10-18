@@ -7,6 +7,7 @@ Le projet transforme un exemple pédagogique de steering behavior en petit jeu c
 ## Démonstration
 
 - [Jouer en ligne](https://itsghali.github.io/orchard-snake/)
+- [Voir la vidéo de démonstration](https://youtu.be/EIcYChxTkvE)
 - [Code source](https://github.com/itsghali/orchard-snake)
 
 ![Orchard Snake : serpent et fruits dans l’arène](docs/orchard-snake.png)
