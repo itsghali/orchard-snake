@@ -35,12 +35,15 @@ Les curseurs règlent vitesse, longueur et largeur du serpent.
 
 ## Exécution locale
 
-Prérequis : navigateur moderne et Python 3, Node.js ou autre serveur HTTP statique.
+Prérequis : Git, un navigateur moderne et Python 3.
 
-```text
-cd 3-Arrival
+```bash
+git clone https://github.com/itsghali/orchard-snake.git
+cd orchard-snake
 python -m http.server 8000
 ```
+
+Sous Windows, si la commande `python` n'existe pas, utiliser `py -m http.server 8000`. Sous macOS ou Linux, utiliser `python3 -m http.server 8000` si nécessaire.
 
 Ouvrir `http://localhost:8000`.
 
@@ -158,7 +161,6 @@ Licences et provenance : [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 - Le son exige une interaction utilisateur à cause des règles d’autoplay des navigateurs.
 - Le meilleur score dépend du navigateur, du domaine et du stockage local.
 - Le jeu est conçu pour une démonstration pédagogique, pas pour une physique de serpent biologique.
-- Le dossier garde son nom pédagogique local `3-Arrival`; le nom public du jeu et du repo est **Orchard Snake**.
 
 ## Référence
 
