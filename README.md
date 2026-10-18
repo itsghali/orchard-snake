@@ -39,7 +39,6 @@ Prérequis : Git, un navigateur moderne et Python 3.
 
 ```bash
 git clone https://github.com/itsghali/orchard-snake.git
-cd orchard-snake
 python -m http.server 8000
 ```
 
