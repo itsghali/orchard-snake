@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orchard Snake</title>
+  <meta name="application-name" content="Orchard Snake">
+  <meta name="description" content="Jeu p5.js où des serpents pilotés par Arrival collectent des fruits dans un verger animé.">
+  <meta name="theme-color" content="#081a17">
+  <link rel="stylesheet" href="style.css">
+  <script src="libraries/p5.min.js"></script>
+  <script src="vehicle.js"></script><script src="arrivalBehaviors.js"></script>
+  <script src="SnakeHead.js"></script><script src="AnneauSnake.js"></script><script src="Snake.js"></script><script src="Food.js"></script>
+  <script src="TextPixel.js"></script><script src="pixelText.js"></script><script src="gameState.js"></script><script src="libraries/webaudiox.js"></script><script src="GameMusic.js"></script><script src="sketch.js"></script>
+</head>
+<body>
+  <main id="game" aria-label="Orchard Snake. Guide the snake with your mouse to collect fruit during a 60 second round."></main>
+  <button id="start" class="canvas-button" aria-label="Start a new game"></button>
+  <button id="music" class="canvas-button" aria-label="Play music"></button>
+  <button id="pause" class="canvas-button" aria-label="Pause game"></button>
+  <button id="reset" class="canvas-button" aria-label="Reset game"></button>
+  <div id="controls">
+    <input id="speed" type="range" min="1" max="12" value="5" step="1" aria-label="Snake speed">
+    <input id="length" type="range" min="4" max="80" value="12" step="1" aria-label="Snake body length">
+    <input id="width" type="range" min="12" max="36" value="24" step="1" aria-label="Snake width">
+  </div>
+  <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
